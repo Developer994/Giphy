@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Animals</title>
+    <style type="text/css">
+        button,
+        div,
+        form,
+        input {
+            margin: 10px;
+        }
+    </style>
+    <!-- <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/css/bootstrap.min.css" /> -->
+
+</head>
+<style>
+    body {
+        background-color: lightgrey;
+    }
+
+    #topic-form {
+        display: flex;
+        flex-direction: row-reverse;
+    }
+
+    .buttons-view {
+        display: flex;
+        flex-direction: row;
+    }
+</style>
+
+<body>
+    <div class="container">
+        <form id="topic-form">
+            <label for="topic-input">Add an animal</label>
+            <input type="text" id="topic-input">
+            <br>
+
+            <!-- Button triggers new movie to be added -->
+            <input id="add-topic" type="submit" value="Search">
+        </form>
+
+        <!-- Topics will get Dumped Here  -->
+        <div id="buttons-view"></div>
+
+        <!-- ID for giphy -->
+        <div id="giphy"></div>
+
+
+
+        <!-- Movies will Get Dumped Here
+        <div id="buttons-view"></div> -->
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="Assets/javascript/app.js"></script>
+
+        </script>
+    </div>
+</body>
+
+</html>
