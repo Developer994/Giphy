@@ -16,7 +16,7 @@ function displayTopicPic() {
     // console.log("This is the function displayTopicGiphy");
 
     var topic = $(this).attr("data-name");
-    var queryURL = "http://api.giphy.com/v1/gifs/search?" + "&api_key=iXGWNWKvg16gyISZmQwv7hcACnJWrs5s" + "&q=" + topic;
+    var queryURL = "https://api.giphy.com/v1/gifs/search?" + "&api_key=iXGWNWKvg16gyISZmQwv7hcACnJWrs5s" + "&q=" + topic;
 
     // An ajax that will call for the designated topic
     $.ajax({
