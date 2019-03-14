@@ -6,7 +6,7 @@ var responseHolder = {};
 
 // var tenPics =  ;
 
-var topics = ["dogs", "cats", "fish", "turtles", "goldfish"];
+var topics = ["dogs", "cats", "fish", "goldfish"];
 // console.log(topics)
 
 // Function for dumping the JSON content for each button into the div
