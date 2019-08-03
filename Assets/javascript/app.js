@@ -100,6 +100,10 @@ $(document).on('click', "img", function () {
     $(this).attr("src", embedPlayPic);
 });
 
+// $(document).on("click", "img", function () {
+//     var src = 
+// })
+
 
 
 // Calling the renderButtons function at least once to display the initial list of topics
